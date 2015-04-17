@@ -3,6 +3,6 @@ class ApplicationController < ActionController::Base
 	end
 
 	def show
-		@article = Article.find(params[:id])
+		@article = Articles.find(params[:id])
 	end
 end
