@@ -3,5 +3,6 @@ class ApplicationController < ActionController::Base
 	end
 
 	def show
+		@article = Article.find(params[:id])
 	end
 end
