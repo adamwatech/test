@@ -1,3 +1,3 @@
 <?php
-	$db->connect("server","database","username","password");
+	$db->connect("server1","database","username","password");
 ?>
